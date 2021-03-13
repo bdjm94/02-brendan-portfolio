@@ -128,7 +128,7 @@ header nav li{
   img {
 	width: 100%; 
   }
-  
+
   .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -168,4 +168,21 @@ header nav li{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  }
+  
+  .work-listing:hover .work-title {
+	opacity: 1;
+  }
+  
+  .work-listing:hover .work-image img {
+	filter: blur(2px);
+  }
+  
+  @media (hover: none) { 
+	.work-title {
+	  opacity: 1;
+	}
+	.work-image img {
+	  filter: blur(2px);
+	}
   }
