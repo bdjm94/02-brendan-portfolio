@@ -90,3 +90,23 @@ header nav li{
 		margin-bottom: 15px;
 	}
 }
+
+/* Profile Picture */
+
+.pp {
+    padding: 100px;
+    }
+    
+    .profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .pp h1 {
+        font: 60px 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+        color: #def2f1;
+    }
