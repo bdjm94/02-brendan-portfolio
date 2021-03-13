@@ -128,3 +128,44 @@ header nav li{
   img {
 	width: 100%; 
   }
+  
+  .grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+	gap: 1em;
+  }
+  
+  .work-listing {
+	position: relative;
+  }
+  
+  .work-image {
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: double #3aafa9;
+  }
+  
+  .work-image img {
+	filter: blur(0px);
+	transition: filter 0.3s ease-in;
+	transform: scale(1.1);
+  }
+  
+  .work-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity .5s;
+	background: #def2f1;
+	color: #17252a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
