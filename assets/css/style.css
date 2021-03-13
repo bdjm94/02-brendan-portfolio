@@ -169,7 +169,7 @@ header nav li{
 	align-items: center;
 	justify-content: center;
   }
-  
+
   .work-listing:hover .work-title {
 	opacity: 1;
   }
@@ -186,3 +186,42 @@ header nav li{
 	  filter: blur(2px);
 	}
   }
+    /* Footer */
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #def2f1;
+	background-color: #3aafa9;
+	padding: 60px 0;
+}
+
+.contact-h1 {
+	font: 40px 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+	color: #def2f1;
+}
+
+footer p{
+	margin-bottom: 10px;
+}
+
+footer ul{
+	display: flex;
+	margin-bottom: 25px;
+	font-size: 32px;
+}
+
+footer ul li{
+	margin: 0 8px;	
+}
+
+footer ul li:first-child{
+	margin-left: 0;	
+}
+
+footer ul li:last-child{
+	margin-right: 0;	
+}
