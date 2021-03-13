@@ -110,3 +110,21 @@ header nav li{
         margin-bottom: 15px;
         color: #def2f1;
     }
+
+    /* Work */
+
+.work-h1 {
+	font: 40px 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+	color: #def2f1;
+}
+
+.main {
+	padding: 20px;
+	font-family: sans-serif;
+	background: #2b7a78;
+  }
+
+  img {
+	width: 100%; 
+  }
