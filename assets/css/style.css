@@ -225,3 +225,11 @@ footer ul li:first-child{
 footer ul li:last-child{
 	margin-right: 0;	
 }
+
+@media (max-width: 700px){
+
+	footer{
+		padding: 80px 15px;
+	}
+
+}
