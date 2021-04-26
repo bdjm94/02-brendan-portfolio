@@ -26,6 +26,6 @@ The contact section includes relevant links to my email, phone number, github, l
 
 ## Credits
 
-- [My Portfolio](https://bdjm94.github.io/brendan-portfolio/)
+- [My Portfolio](https://bdjm94.github.io/02-brendan-portfolio/)
 - [Colour Theme Inspiration](https://digitalsynopsis.com/design/website-color-schemes-palettes-combinations/)
 - [Grid Styling Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
